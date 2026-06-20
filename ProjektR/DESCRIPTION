@@ -1,16 +1,15 @@
 Package: ProjektR
-Title: Pakiet Do Analizy Danych Na Zaliczenie Programowania W R
+Title: Analiza Zarobkow w Branży I
 Version: 1.0.0
 Authors@R: c(
     person("Emilia", "Roszkowska", role = c("aut", "cre")),
     person("Karolina", "Jantas", role = "aut")
   )
-Description: Pakiet zostal stworzony jako projekt zaliczeniowy z przedmiotu Zaawansowane programowanie w R. 
-    Zawiera co najmniej dwie funkcje analityczne, przykladowy zbior danych, testy jednostkowe oraz samouczek.
+Description: Pakiet służy do analizy i porównywania zarobków na różnych stanowiskach w sektorze IT.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.1
 Imports: 
     devtools,
     testthat
+Config/roxygen2/version: 8.0.0
