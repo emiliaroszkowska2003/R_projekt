@@ -1,9 +1,4 @@
-# Przykładowy zbiór danych o zarobkach w IT
-dane_it <- data.frame(
-  stanowisko = c("Data Scientist", "Developer", "Data Scientist", "Analyst", "Developer", "Analyst"),
-  doswiadczenie = c("Junior", "Senior", "Mid", "Junior", "Mid", "Senior"),
-  zarobki = c(8000, 18000, 13000, 7000, 12000, 11000)
-)
+
 
 #' Title: Analiza zarobkow
 #' Description: Funkcja liczy statystyki dla stanowiska
