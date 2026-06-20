@@ -2,7 +2,7 @@ Package: ProjektR
 Title: Analiza Zarobkow w Branży I
 Version: 1.0.0
 Authors@R: c(
-    person("Emilia", "Roszkowska", role = c("aut", "cre")),
+    person("Emilia", "Roszkowska", email = "emilia.roszkowska2003@gmail.com", role = c("aut", "cre")),
     person("Karolina", "Jantas", role = "aut")
   )
 Description: Pakiet służy do analizy i porównywania zarobków na różnych stanowiskach w sektorze IT.
@@ -17,3 +17,8 @@ Depends:
     R (>= 3.5)
 LazyData: true
 RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Config/testthat/edition: 3
