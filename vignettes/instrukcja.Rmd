@@ -18,8 +18,7 @@ knitr::opts_chunk$set(
 library(ProjektR)
 ```
 
-```{r setup}
-dane_it
-print(analizuj_zarobki(dane_it, "Developer"))
-print(porownaj_doswiadczenie(dane_it, "Analyst"))
+```{r exampeles}
+analizuj_zarobki(dane_it, "Developer")
+porownaj_doswiadczenie(dane_it, "Analyst")
 ```
